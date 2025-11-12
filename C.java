@@ -1,5 +1,6 @@
 public class C extends B {
-     public C(int a, double b, String c){
+    private Character c;
+    public C(int a, double b, Character c){
          super(a,b);
          this.c = c;
      }
