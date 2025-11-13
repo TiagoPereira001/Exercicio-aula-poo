@@ -1,4 +1,4 @@
-public class A {
+public class A extends Object {
     protected int a;
     public A(int a) {
         this.a = a;
@@ -6,5 +6,8 @@ public class A {
     @Override
     public String toString() {
         return "A{" + "a=" + a + '}';
+    }
+    public int getA() {
+        return a;
     }
 }
